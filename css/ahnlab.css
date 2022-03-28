@@ -207,11 +207,12 @@ section#list {
     background-image:url(../img/0101.png);
     /* 배경이미지를 고정시킴 */
     /* background-attachment: fixed; */
-    width: 1920px;
-    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1920;
 }
 section#list .list_box {
-    margin-top: 125px;
+    margin-top: 30px;
 }
 section#list .list_box ul li {
     float: left;
