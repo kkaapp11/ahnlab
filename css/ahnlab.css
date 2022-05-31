@@ -57,6 +57,7 @@ header .down_area .logo {
     float: left;
     width: 150px;
     margin-top: 25px;
+    cursor: pointer;
 }
 /* 내비게이션(메뉴)은 오른쪽에 배치 */
 header .down_area nav {
@@ -116,7 +117,7 @@ header .down_area nav .sub li a {
     border-bottom:1px solid #ddd;
 }
 header .down_area nav .sub li a:hover {
-    background-color: #efefef;
+    background-color: #2483c5;
 } 
 header .down_area nav > ul > li:hover .sub {
     /* display: block; */
@@ -132,6 +133,32 @@ section#visual {
     padding: 0;
     position: relative;
     z-index: 10;
+}
+.visual{
+    height: 570px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
+/* 본문 비주얼 */
+section.visual .swiper {
+    width: 100%;
+    margin: 0 auto;
+}
+section.visual .swiper .swiper-slide{
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.visual .swiper .s1{
+    background-image: url(../img/v1.png);
+}
+section.visual .swiper .s2{
+    background-image: url(../img/v2.png);
+}
+section.visual .swiper .s3{
+    background-image: url(../img/v3.png);
 }
 section#banner .movie {
     width: 742px;
